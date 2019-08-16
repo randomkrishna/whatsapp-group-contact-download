@@ -2,7 +2,7 @@
   "name": "Download WA Group Contacts",
   "version": "1.0",
   "description": "Download WA Group Contacts!!!",
-  "permissions": ["activeTab", "downloads"],
+  "permissions": ["activeTab", "downloads", "webNavigation", "*://web.whatsapp.com/*"],
   "background": {
     "scripts": ["bg.js"],
     "persistent": false
